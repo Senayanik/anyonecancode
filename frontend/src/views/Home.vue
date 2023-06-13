@@ -6,8 +6,8 @@
         <div id="right"></div>
         <div id="top"></div>
         <div id="bottom"></div>
-        <b-navbar-item id="fontnavbar" class="title is-2">
-          Milligram
+        <b-navbar-item id="fontnavbar" class="title is-2" style="color:red"> 
+        SA_App
         </b-navbar-item>
       </template>
     </b-navbar>
@@ -45,7 +45,7 @@ export default class Home extends Vue {}
 #right {
   background: linear-gradient(
     45deg,
-    #f09433 0%,
+    #f1f1f1 0%,
     #e6683c 25%,
     #dc2743 50%,
     #cc2366 75%,
